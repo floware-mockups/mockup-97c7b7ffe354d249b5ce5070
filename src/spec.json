@@ -1,0 +1,189 @@
+{
+  "title": "Raccolta feedback clienti",
+  "description": "Prototipo navigabile per raccogliere, consultare e analizzare valutazioni a stelle e commenti. Dati dimostrativi inventati.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Panoramica delle valutazioni e dei commenti raccolti.",
+      "metrics": [
+        {
+          "label": "Feedback totali",
+          "value": "128"
+        },
+        {
+          "label": "Valutazione media",
+          "value": "4,3 / 5"
+        },
+        {
+          "label": "Feedback recenti",
+          "value": "18"
+        },
+        {
+          "label": "Commenti da esaminare",
+          "value": "7"
+        }
+      ],
+      "columns": [
+        "Periodo",
+        "Feedback raccolti",
+        "Valutazione media",
+        "Commenti"
+      ],
+      "rows": [
+        [
+          "Ultimi 7 giorni",
+          "18",
+          "4,4",
+          "12"
+        ],
+        [
+          "Ultimi 30 giorni",
+          "64",
+          "4,2",
+          "47"
+        ],
+        [
+          "Ultimi 90 giorni",
+          "128",
+          "4,3",
+          "91"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "feedback",
+      "title": "Feedback",
+      "description": "Elenco filtrabile delle valutazioni e dei commenti ricevuti.",
+      "metrics": [],
+      "columns": [
+        "Codice feedback",
+        "Data",
+        "Servizio",
+        "Valutazione",
+        "Commento",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "FB-001",
+          "12/06/2025",
+          "Lumo",
+          "5",
+          "Accoglienza e servizio impeccabili.",
+          "Esaminato"
+        ],
+        [
+          "FB-002",
+          "11/06/2025",
+          "Vela",
+          "4",
+          "Esperienza piacevole e semplice.",
+          "Esaminato"
+        ],
+        [
+          "FB-003",
+          "10/06/2025",
+          "Nubi",
+          "3",
+          "Buono, con qualche attesa.",
+          "Da esaminare"
+        ],
+        [
+          "FB-004",
+          "09/06/2025",
+          "Lumo",
+          "5",
+          "Tutto chiaro e ben organizzato.",
+          "Esaminato"
+        ],
+        [
+          "FB-005",
+          "08/06/2025",
+          "Vela",
+          "2",
+          "Informazioni non abbastanza chiare.",
+          "Da esaminare"
+        ],
+        [
+          "FB-006",
+          "07/06/2025",
+          "Nubi",
+          "4",
+          "Nel complesso, una buona esperienza.",
+          "Esaminato"
+        ]
+      ],
+      "form": [
+        "Codice feedback",
+        "Data",
+        "Servizio",
+        "Valutazione",
+        "Commento",
+        "Stato"
+      ]
+    },
+    {
+      "id": "nuovo-feedback",
+      "title": "Nuovo feedback",
+      "description": "Registra una valutazione a stelle e un commento.",
+      "metrics": [],
+      "columns": [
+        "Codice feedback",
+        "Data",
+        "Servizio",
+        "Valutazione",
+        "Commento",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Codice feedback",
+        "Data",
+        "Servizio",
+        "Valutazione",
+        "Commento",
+        "Stato"
+      ]
+    },
+    {
+      "id": "servizi",
+      "title": "Servizi",
+      "description": "Riepilogo delle valutazioni ricevute per i servizi di fantasia.",
+      "metrics": [],
+      "columns": [
+        "Servizio",
+        "Feedback raccolti",
+        "Valutazione media",
+        "Ultimo feedback",
+        "Commenti da esaminare"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "52",
+          "4,5 / 5",
+          "12/06/2025",
+          "2"
+        ],
+        [
+          "Vela",
+          "41",
+          "4,1 / 5",
+          "11/06/2025",
+          "3"
+        ],
+        [
+          "Nubi",
+          "35",
+          "4,2 / 5",
+          "10/06/2025",
+          "2"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
